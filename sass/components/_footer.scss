@@ -1,0 +1,135 @@
+.footer address {
+  font-size: 14px;
+  line-height: 1.71;
+  color: $white-text-color;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+.footer-join {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin: 0px;
+  display: inline-block;
+  align-items: center;
+  margin-bottom: 20px;
+  color: $white-text-color;
+}
+
+.footer-svg {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-margin {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.footer {
+  margin-top: 94px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-address {
+  margin-right: 70px;
+}
+
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.logo-footer {
+  padding: 0px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.social-list-footer:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-icons-footer {
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icons-footer:hover {
+  background-color: $accent-text-color;
+}
+
+.icons-footer {
+  fill: $white-text-color;
+}
+
+.logo-footer .logo-word {
+  color: $white-text-color;
+}
+
+.footer-newsletter {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.subscribe-input {
+  border-radius: 4px;
+  width: 358px;
+  padding: 15px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background: rgba(47, 48, 58, 1);
+  outline: rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+}
+
+.subscribe-button {
+  display: inline-flex;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  border: 0px;
+  background-color: $accent-text-color;
+  color: $white-text-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px 32px;
+  align-items: center;
+}
+
+.subscribe-button::after {
+  content: '';
+  background-image: url(../../images/send-telegram.svg);
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.subscribe-div {
+  margin-left: auto;
+}

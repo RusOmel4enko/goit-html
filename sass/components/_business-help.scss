@@ -1,0 +1,35 @@
+/* Помощь по бизнесу */
+.business-list h2 {
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+.business-list p {
+  font-size: 14px;
+  line-height: 1.71;
+  color: $secondary-text-color;
+  letter-spacing: 0.03em;
+  margin: 10px 0px 0px;
+}
+
+.business-list {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.business-list li {
+  width: 270px;
+}
+
+.div-svg {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

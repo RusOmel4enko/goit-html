@@ -1,0 +1,73 @@
+.portfolio {
+  margin-top: 94px;
+}
+
+.list-works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list-works li {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 370px;
+  cursor: pointer;
+}
+
+.list-works li:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.list-works h2 {
+  margin-top: 20px;
+  margin-bottom: 4px;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.item-p {
+  margin: 0px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: $secondary-text-color;
+  padding-bottom: 20px;
+}
+
+.flex-list:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.flex-list img {
+  display: block;
+}
+
+.overlay {
+  width: 370px;
+  height: 294px;
+  background-color: rgba(33, 150, 243, 0.9);
+  position: absolute;
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.item-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.flex-list:hover .overlay {
+  transform: translateY(-294px);
+}
+
+.work-p {
+  padding: 0;
+  padding: 63px 24px;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: $white-text-color;
+  margin: 0px;
+}

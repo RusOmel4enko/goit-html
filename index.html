@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+
     <link
         href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./dist/css/main.min.css">
 </head>
 <body>
     <!--Шапка сайта-->
@@ -354,10 +355,66 @@
              </li>
          </ul>
         </div>
+
+         <div class="subscribe-div">
+             <h2 class="footer-newsletter">Подпишитесь на рассылку</h2>
+             <label class="subscribe-label">
+                 <input class="subscribe-input" type="email" placeholder="E-mail">
+             </label>
+
+             <button class="subscribe-button" type="submit">Подписаться</button>
+        </div>
+
         </div>
     </footer>
      <div class="backdrop is-hidden" data-modal>
         <div class="modal">
+            <form class="js-speaker-form">
+                <strong class="form-strong">Оставьте свои данные, мы вам перезвоним</strong>
+
+                <label class="form-label">Имя
+                <div class="form-div">
+                <input class="form-input" type="text" name="user-name">
+                <svg class="form-svg" width="12px" height="12px">
+                    <use href="./images/symbol-defs.svg#name"></use>
+                </svg>
+                </div>
+                </label>
+                
+
+                <label class="form-label">Телефон
+                <div class="form-div">
+                <input class="form-input" type="tel" name="user-number">
+                <svg class="form-svg" width="13px" height="13px">
+                    <use href="./images/symbol-defs.svg#tel"></use>
+                </svg>
+                </div>
+                </label>
+                
+
+                <label class="form-label">Почта
+                <div class="form-div">
+                <input class="form-input" type="email" name="user-email" >
+                <svg class="form-svg" width="15px" height="12px">
+                    <use href="./images/symbol-defs.svg#email"></use>
+                </svg>
+                </div>
+                </label>
+
+                <label class="label-textarea">Комментарий
+                    <textarea class="form-textarea" name="comment"></textarea>
+                </label>
+
+                
+                <label class="label-checkbox" for="checkbox">
+                <input class="form-checkbox" type="checkbox" id="checkbox" value="contract"/>
+                <span class="checkbox-icon"></span>
+                Соглашаюсь с рассылкой и принимаю <a class="form-contract" href="">Условия договора</a></label>
+
+
+                <button class="form-button" type="submit">Отправить</button>
+            </form>
+
             <button class="modal-button" type="button" data-modal-close>
                 <svg class="modal-svg" width="11px" height="11px">
                 <use href="./images/symbol-defs.svg#krest"></use>
